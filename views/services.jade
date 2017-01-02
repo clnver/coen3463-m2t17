@@ -1,0 +1,26 @@
+extends layout
+
+block content
+  .container
+    .row
+        .box
+          .col-lg-12
+            hr                   
+            h2.intro-text.text-center= header              
+            hr
+          each service, i in services                
+            .col-lg-12.text-center
+              img.img-responsive.img-border.img-full(src='/images/slide-1.jpg', alt='')                   
+              h2= service.name
+                br                        
+                small October 13, 2013                  
+              p= service.description               
+              a.btn.btn-default.btn-lg(href='#') Read More                
+              hr      
+          .col-lg-12.text-center
+            ul.pager
+              li.previous
+                a(href='#') &larr; Older                     
+              li.next
+                a(href='#') Newer &rarr;
+    // /.container
