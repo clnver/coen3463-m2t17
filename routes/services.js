@@ -6,16 +6,9 @@ var templateData = {
   	header: 'Company Services',
   	services: [
   		{
-            "name":"Hardware Repair",
-            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas a mollis est, sed dapibus neque. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae",
-            "price_range":"PHP 1000 - PHP 2000",
-            "link": '/hardware'
-        },
-        {
-            "name":"Hardware Repair 222",
-            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas a mollis est, sed dapibus neque. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae",
-            "price_range":"PHP 1000 - PHP 2000",
-            "link": '/hardware'
+            "name":"Weekly Services",
+            "description":"Prepared, convenient, and ready-to-go meals that are prepared, packaged and stored in your refrigerator; all set for your busy work week ahead. Plans usually include six lunches, six dinners, grab-and-go breakfasts, and snacks. Chase the Flavors specializes in fresh, healthy meals without the sacrifice of flavor. These services are affordable and customized for a person just like you.",
+            "price_range":"PHP 1,200- PHP 3,000 per week"
         }
   	]
 }
