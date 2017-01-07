@@ -51,5 +51,4 @@ app.use(function(err, req, res, next) {
   res.render('error');
 });
 
-process.env.NODE_TLS_REJECT_UNAUTHORIZED = "0";
 module.exports = app;
