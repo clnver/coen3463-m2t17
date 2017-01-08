@@ -16,7 +16,7 @@ router.post('/send', function(req, res, next) {
   		}
 	});
 
-  	var mainOptions = {
+  	var mailOptions = {
   		from: 'John Doe <johndoe@outlook.com>',
   		to: 'chasetheflavorsmnl@gmail.com',
   		subject: 'Website Submission',
@@ -24,7 +24,7 @@ router.post('/send', function(req, res, next) {
   		html: '<p>You got a new submission with the following details..</p><ul><li>Name: '+req.body.name+'</li><li>Email: '+req.body.email+'</li><li>Message: '+req.body.message+'</li></ul>'
   	};
 
-  	transport.sendMail(mailOptions, function(error, info){
+  	transporter.sendMail(mailOptions, function(error, info){
   		if(error){
   			console.log(error);
   			res.redirect('/');
